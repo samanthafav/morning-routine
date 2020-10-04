@@ -1,0 +1,271 @@
+<style>
+/* purple:6F5ED9 pink:EBA2C5 blue:72A3DF white:FFFFFF */
+
+/*general*/
+:root {
+	text-align: center;
+	font-size: 70px;
+	color: #eeeeee;
+	background: #151318;
+	padding: 1%;
+	font-family: "San Francisco", -apple-system, "Helvetica Neue", "sans-serif",
+		"Arial";
+	margin: auto;
+}
+
+/*text*/
+#title {
+	color: #ffffff;
+	font-size: 100%;
+	margin-top: 2%;
+}
+
+#intro {
+	color: #6f5ed9;
+	font-size: 50%;
+	margin-top: 1%;
+}
+
+#caption {
+	color: #72a3df;
+	font-size: 30%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+#routine {
+	text-align: center;
+	/*border: 1px solid green;*/
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 10px;
+	width: 40%;
+	/*border: 2px solid red;*/
+}
+
+li {
+	color: #ffffff;
+	font-size: 50%;
+	text-align: center;
+	display: block;
+	border-radius: 10px;
+	background: #6f5ed9;
+	padding: 10%;
+	width: auto;
+	border: 5px solid #151318;
+}
+
+#footer {
+	width: 30%;
+	text-align: center;
+	height: auto;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*border: 5px solid pink;*/
+}
+
+#yay {
+	font-size: 150%;
+	margin-bottom: 20%;
+	display: none;
+}
+
+button {
+	background: #eba2c5;
+	border: 5px solid #151318;
+	border-radius: 10px;
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	font-size: 30%;
+	display: none;
+}
+
+@media (max-width: 1000px) {
+	:root {
+		text-align: center;
+		font-size: 60px;
+		color: #eeeeee;
+		background: #151318;
+		padding: 1%;
+		font-family: "San Francisco", -apple-system, "Helvetica Neue", "sans-serif",
+			"Arial";
+		margin: auto;
+	}
+
+	/*text*/
+	#title {
+		color: #ffffff;
+		font-size: 100%;
+		margin-top: 2%;
+	}
+
+	#intro {
+		color: #eba2c5;
+		font-size: 50%;
+		margin-top: 1%;
+	}
+
+	#caption {
+		color: #72a3df;
+		font-size: 30%;
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+
+	#routine {
+		text-align: center;
+		/*border: 1px solid green;*/
+	}
+
+	ul {
+		list-style-type: none;
+		display: inline-block;
+		margin: 10px 0;
+		padding: 10px;
+		width: 50%;
+		/*border: 2px solid red;*/
+	}
+
+	li {
+		color: #ffffff;
+		font-size: 50%;
+		text-align: center;
+		display: block;
+		border-radius: 10px;
+		background: #6f5ed9;
+		padding: 10%;
+		width: auto;
+		border: 5px solid #151318;
+	}
+
+	#footer {
+		width: 50%;
+		text-align: center;
+		height: auto;
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 20%;
+		/*border: 5px solid pink;*/
+	}
+	#yay {
+		font-size: 150%;
+		margin-bottom: 20%;
+		display: none;
+	}
+
+	button {
+		background: #eba2c5;
+		border: 5px solid #151318;
+		border-radius: 10px;
+		width: 100%;
+		padding-right: 10%;
+		padding-left: 10%;
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
+		font-size: 30%;
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+	:root {
+		text-align: center;
+		font-size: 45px;
+		color: #eeeeee;
+		background: #151318;
+		padding: 1%;
+		font-family: "San Francisco", -apple-system, "Helvetica Neue", "sans-serif",
+			"Arial";
+		margin: auto;
+	}
+
+	/*text*/
+	#title {
+		color: #ffffff;
+		font-size: 100%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}
+
+	#intro {
+		color: #eba2c5;
+		font-size: 50%;
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+
+	#caption {
+		color: #72a3df;
+		font-size: 35%;
+		margin-top: 4%;
+		margin-bottom: 1%;
+	}
+
+	#routine {
+		text-align: center;
+		/*border: 1px solid green;*/
+	}
+
+	ul {
+		list-style-type: none;
+		display: inline-block;
+		margin: 10px 0;
+		padding: 10px;
+		width: 90%;
+		/*border: 2px solid red;*/
+	}
+
+	li {
+		color: #ffffff;
+		font-size: 55%;
+		text-align: center;
+		display: block;
+		border-radius: 20px;
+		background: #6f5ed9;
+		padding: 10%;
+		width: auto;
+		border: 10px solid #151318;
+	}
+
+	#footer {
+		width: 90%;
+		text-align: center;
+		height: auto;
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 20%;
+		/*border: 5px solid pink;*/
+	}
+
+	#yay {
+		font-size: 100%;
+		margin-bottom: 5%;
+		margin-bottom: 10%;
+		display: none;
+	}
+
+	button {
+		background: #eba2c5;
+		border: 10px solid #151318;
+		border-radius: 20px;
+		width: 100%;
+		padding-right: 10%;
+		padding-left: 10%;
+		padding-top: 6%;
+		padding-bottom: 6%;
+		font-size: 40%;
+		display: none;
+	}
+}
+
+</style>
